@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header class="header-top">HTML Documentation</header>
+        <ul>
+            <li>
+                <a class="nav-link" href="#What_is_HTML?">What is HTML?</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#HTML_Basics">HTML Basics</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#Web_Design_Basics">Web Design Basics</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#HTML_Paragraphs">HTML Paragraphs</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#HTML_Headings">HTML Headings</a>
+            </li>
+        </ul>
+    </nav>
+</body>
+<main id="main-doc">
+    <section class="main-section" id="What_is_HTML?">
+        <header>What is HTML?</header>
+        <p>HTML (HyperText Markup Language) is used to structure and format the content of websites on the World Wide Web. Web Developers use it to create a skeleton of modern websites and web apps.</p>
+        <p>In simple words, HTML is the primary building block to create and structure website content.</p>
+        <h2>HyperText</h2>
+        <p>HyperText is a way of organizing text that allows the reader to easily navigate and access related information. It takes the reader to a different part of the same web page, or to a different web page altogether.</p>
+        <h2>Markup Language</h2>
+        <p>A markup language is a computer language that is used to add structure and formatting to a text document. Markup languages use a system of tags to define the structure and content of a document. These tags are interpreted by a program or application to display the document in a specific way.</p>
+        <h2>Example of HTML</h2>
+        <p>Let's see a simple example of HTML.</p>
+        <img src="./example6.png" width="500" height="200"></img>
+        <pre>
+            <code>
+                <html>
+                <head>
+                    <title>freecodeCamp</title>
+                </head>
+                    <body>
+                        <h1>Hello World!</h1>
+                        <p>I love freecodeCamp</p>
+                    </body>
+                </html>
+            </code>
+        </pre>
+        <p>See how the code shows above.</p>
+    </section>
+    <section class="main-section" id="HTML_Basics">
+        <header>HTML Basics</header>
+        <p>HTML (HyperText Markup Language) is a markup language used to structure and organize the content on a web page. It uses various tags to define the different elements on a page, such as headings, paragraphs, and links.</p>
+        <h2>HTML Hierarchy</h2>
+        <p>HTML elements are hierarchical, which means that they can be nested inside each other to create a tree-like structure of the content on the web page.</p>
+        <p>This hierarchical structure is called the DOM (Document Object Model), and it is used by the web browser to render the web page. For example,</p>
+        <img src="./example1.png" width="500" height="300"></img>
+        <p>Below you will see the code written out.</p>
+        <pre>
+            <code>
+                <!DOCTYPE html>
+                <html>
+                    <head>
+                    <title>My web page</title>
+                    </head>
+                    <body>
+                        <h1>Hello, world!</h1>
+                        <p>This is my first web page.</p>
+                        <p>
+                        It contains a <strong>main heading </strong> and
+                        <em> paragraph </em>.
+                        </p>
+                    </body>
+                </html>
+            </code>
+        </pre>
+    </section>
+    <section class="main-section" id="Web_Design_Basics">
+        <header>Web Design Basics</header>
+        <p>Web design refers to the process of creating and styling the appearance of a website. There are 3 fundamental technologies to build the modern website and web applications. They are:</p>
+        <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+        </ol>
+        <p>These technologies work together to provide the structure, style, and interactivity of a web page.</p>
+        <h2>HTML</h2>
+        <p>HTML (HyperText Markup Language) is a markup language used to structure and organize the content on a web page. It uses various tags to define the different elements on a page, such as headings, paragraphs, and links. Let's see an example:
+        </p>
+        <img src="./example2.png" width="500" height="300"></img>
+        <p>Here, we have an HTML document where:</p>
+        <ol>
+            <li>< h1 > = heading of the document</li>
+            <li>< p >= paragraph of the document</li>
+        </ol>
+        <pre>
+            <code>
+                <h1>Hello World!</h1>
+                <p>try freecodeCamp</p>
+            </code>
+        </pre>    
+        <p>The heading and paragraph tag in the above code help create a webpage structure.</p>
+        <h2>CSS</h2>
+        <p>CSS (Cascading Style Sheets) is a stylesheet language. It is used to style HTML documents.</p>
+        <p>It specifies how the elements of HTML look including their layout, colors, and fonts. We use ```style``` tag to add CSS to HTML documents. Let's add some CSS to our previous HTML code.
+        </p>
+        <img src="./example3.png" width="500" height="300"></img>
+        <pre>
+            <code>
+                <h1>Hello World!</h1>
+                <p>try freecodeCamp</p>
+                h1 {
+                    color: blue;
+                }
+                p {
+                    color: red;
+                }
+            </code>
+        </pre>
+        <p>In the above code, we've applied CSS to < h1 > and < p > tags to change their text color. Notice the code,</p>
+        <p>The h1 CSS code turns the text color of every < h1 > element into blue.</p>
+        <p>And the p CSS code turns the text color of every < p > element into red.</p>
+    </section>
+    <section class="main-section" id="HTML_Paragraphs">
+        <header>HTML Paragraphs</header>
+        <p>The HTML tag is used to create paragraphs. For example,</p>
+        <img src="./example4.png" width="600" height="20"></img>
+        <p>As we can see, a paragraph starts with the < p > and ends with the < /p > tag.</p>
+    </section>
+    <section class="main-section" id="HTML_Headings">
+        <header>HTML Headings</header>
+        <p>The HTML heading tags (< h1 > to < h6 >) are used to add headings to a webpage. For example,</p>
+        <img src="./example5.png" width="500" height="200"></img>
+        <p>It will look like how it is displayed below.</p>
+        <pre>
+            <code>
+                <h1>Hello World!</h1>
+                <h2>Hello World!</h2>
+                <h3>Hello World!</h3>
+                <h4>Hello World!</h4>
+                <h5>Hello World!</h5>
+                <h6>Hello World!</h6>
+            </code>
+        </pre>
+        <p>In the example, we have used tags h1 to h6 to create headings of varying sizes and importance.</p>
+        <p>The h1 tag denotes the most important heading on a webpage. Similarly, h6 denotes the least important heading.</p>
+        <p>The difference in sizes of heading tags comes from the browser's default styling. And, you can always change the styling of heading tags, including font size, using CSS.</p>
+    </section>
+</main>
+</html>
